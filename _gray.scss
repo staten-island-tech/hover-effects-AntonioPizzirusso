@@ -1,0 +1,12 @@
+@import "_variables.scss";
+
+.gray    {
+    height: 20rem;
+    transition: all 0.3s;
+    border-radius: 50%;
+}
+
+.gray:hover {
+    filter: grayscale(100%);
+    border-radius: 0;
+}

@@ -1,0 +1,13 @@
+@import "_variables.scss";
+.text-effect    {
+    background-image: url("./media/Mint.jpg");
+    background-position: center;
+    color: transparent;
+    font-size: 10rem;
+    background-clip: text;
+    transition: all 0.2s;
+}
+.text-effect:hover  {
+    transform: skewY(0deg);
+    letter-spacing: 3rem;
+}

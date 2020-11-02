@@ -1,0 +1,28 @@
+@import "_variables.scss";
+.up {
+    height: 30rem;
+    position: relative;
+}
+.up-picture {
+    height: 100%;
+    clip-path: circle();
+    transition: all 0.3s;
+}
+.up-header  {
+    font-size: 3rem;
+    opacity: 0;
+    color:  white;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    transition: all 0.3s;
+    text-transform: uppercase;
+}
+.up:hover   .up-picture{
+    filter: grayscale(90%);
+}
+.up:hover   .up-header  {
+    opacity: 1;
+    top:    50%;
+}
